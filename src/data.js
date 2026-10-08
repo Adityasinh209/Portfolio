@@ -31,10 +31,10 @@ export const projects = [
     // Repo: Adityasinh209/Ayusutra. README "AyurSutra: AI-Enabled Panchakarma Patient Management".
     // Live site self-titles "AyurSutra — Panchakarma Management System". Separate project from Ayusandhi.
     name: 'Ayusutra',
-    tagline: 'AI-enabled Panchakarma clinic management system',
+    tagline: 'Therapist-led Panchakarma clinic management system',
     stack: ['React 19', 'Vite', 'Tailwind CSS v4', 'React Router v7', 'Vitest'],
     points: [
-      'Role-based platform for Panchakarma centres (doctor, receptionist, admin) covering patient registration, EMR records and therapy prescriptions.',
+      'Role-based platform for Panchakarma centres, with dashboards for therapists, receptionists, patients and admins, covering patient registration, Ayurvedic assessment, Panchakarma plans and follow-up tracking.',
       'Smart therapy scheduling that recommends a therapist and slot from availability and existing bookings, with alternatives.',
       'Appointment tracking and master data for therapies, therapists and rooms, backed by a Vitest + React Testing Library suite.',
     ],
