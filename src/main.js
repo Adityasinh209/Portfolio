@@ -87,7 +87,7 @@ $('#main').innerHTML = `
   <div class="stats">
     <div class="stat"><div class="stat__num"><span data-counter="${projects.length}">0</span></div><div class="stat__label mono">Projects shipped</div></div>
     <div class="stat"><div class="stat__num"><span data-counter="${certifications.length}">0</span></div><div class="stat__label mono">Certifications</div></div>
-    <div class="stat"><div class="stat__num"><span data-counter="7.36" data-decimals="2">0</span></div><div class="stat__label mono">SGPA · Semester 5</div></div>
+    <div class="stat"><div class="stat__num"><span data-counter="7.69" data-decimals="2">0</span></div><div class="stat__label mono">SGPA · Semester 6</div></div>
     <div class="stat"><div class="stat__num"><span data-counter="2">0</span></div><div class="stat__label mono">GDG On Campus leadership roles</div></div>
   </div>
 </section>

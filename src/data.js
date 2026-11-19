@@ -32,11 +32,12 @@ export const projects = [
     // Live site self-titles "AyurSutra — Panchakarma Management System". Separate project from Ayusandhi.
     name: 'Ayusutra',
     tagline: 'Therapist-led Panchakarma clinic management system',
-    stack: ['React 19', 'Vite', 'Tailwind CSS v4', 'React Router v7', 'Vitest'],
+    stack: ['React 19', 'Vite', 'Tailwind CSS v4', 'Clerk', 'FastAPI', 'MySQL (Aiven)', 'Groq', 'Vitest'],
     points: [
       'Role-based platform for Panchakarma centres, with dashboards for therapists, receptionists, patients and admins, covering patient registration, Ayurvedic assessment, Panchakarma plans and follow-up tracking.',
       'Smart therapy scheduling that recommends a therapist and slot from availability and existing bookings, with alternatives.',
-      'Appointment tracking and master data for therapies, therapists and rooms, backed by a Vitest + React Testing Library suite.',
+      'Clerk-authenticated booking flow with reception-confirmed appointments, served by a FastAPI + MySQL backend that covers billing, inventory and follow-ups, plus a Groq-powered AI assistant.',
+      'Role-based session cancellation, SMTP follow-up reminders, patient account deactivation with record retention, and an admin staff directory for therapists and receptionists.',
     ],
     live: 'https://ayusutra001.vercel.app/',
     code: 'https://github.com/Adityasinh209/Ayusutra',
@@ -103,6 +104,20 @@ export const projects = [
     image: 'ayusandhi',
     hue: 12,
   },
+  {
+    // Repo: Adityasinh209/SharkSwarm
+    name: 'SharkSwarm',
+    tagline: 'Multi-agent AI startup pitch and VC roast',
+    stack: ['Python', 'Streamlit', 'CrewAI', 'LiteLLM', 'Groq'],
+    points: [
+      'Three CrewAI agents on Groq hand off in sequence (founder, CFO, VC) to turn one idea into a pitch, a 12-month financial sketch and a scored investor verdict.',
+      'The VC agent stress-tests the pitch and returns a 0-100 score with a Pass, Interested or Invest verdict.',
+    ],
+    live: null,
+    code: 'https://github.com/Adityasinh209/SharkSwarm',
+    image: null,
+    hue: 210,
+  },
 ];
 
 export const skills = [
@@ -136,7 +151,7 @@ export const journey = [
     when: 'B.Tech',
     title: 'Computer Science and Engineering',
     org: 'Karnavati University (UIT)',
-    text: 'SGPA: 7.36 (Semester 5)',
+    text: 'SGPA: 7.69 (Semester 6)',
     kind: 'Education',
   },
   {
