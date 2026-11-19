@@ -37,6 +37,7 @@ export const projects = [
       'Role-based platform for Panchakarma centres, with dashboards for therapists, receptionists, patients and admins, covering patient registration, Ayurvedic assessment, Panchakarma plans and follow-up tracking.',
       'Smart therapy scheduling that recommends a therapist and slot from availability and existing bookings, with alternatives.',
       'Clerk-authenticated booking flow with reception-confirmed appointments, served by a FastAPI + MySQL backend that covers billing, inventory and follow-ups, plus a Groq-powered AI assistant.',
+      'Role-based session cancellation, SMTP follow-up reminders, patient account deactivation with record retention, and an admin staff directory for therapists and receptionists.',
     ],
     live: 'https://ayusutra001.vercel.app/',
     code: 'https://github.com/Adityasinh209/Ayusutra',
@@ -114,7 +115,7 @@ export const projects = [
     ],
     live: null,
     code: 'https://github.com/Adityasinh209/SharkSwarm',
-    image: 'sharkswarm',
+    image: null,
     hue: 210,
   },
 ];
@@ -150,7 +151,7 @@ export const journey = [
     when: 'B.Tech',
     title: 'Computer Science and Engineering',
     org: 'Karnavati University (UIT)',
-    text: 'SGPA: 7.36 (Semester 5)',
+    text: 'SGPA: 7.69 (Semester 6)',
     kind: 'Education',
   },
   {
